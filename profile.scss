@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+$font-family-sans-serif : 'Roboto', sans-serif;
+$primary : #005c45;
+$secondary : #51596C;
+$warning : #F1B980;
+$btn-padding-y : 9.8px;
+$btn-padding-x : 16px;
+$accordion-button-icon: url("./assets/plus.svg");
+$accordion-button-active-icon: url("./assets/dash.svg");
+$form-check-radio-checked-bg-image: url('./assets/check.svg');
+$form-check-input-checked-bg-color: $primary;
+$modal-dialog-margin: 4rem;
+$btn-padding-y : 0.75rem;
+$btn-padding-x : 1rem;
+$stroke-color:#005c45;
+$secondary : #51596C;
+$font-weight-bold : 400 !important ;
+$pagination-padding-y : 1rem;
+$pagination-padding-x : 1.5rem;
+//$modal-content-border-width: 1000px;
+
+:root{
+  --bg-soft-warning : rgba(241,185,128,.1)!important;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "node_modules/animate.css/animate.min.css";
+
+.img-width-avartar{
+  width: 7rem !important;
+  height: 7rem !important;
+}
+
+.img-fluid-nav{
+  width: 2rem !important;
+  height: auto;
+}
+.img-fluid-nav-icon{
+  width: 6rem !important;
+  height: auto;
+}
+
+.chris-fs{
+  font-size: 1.625rem !important;
+}
+
+.bg-soft-warning {
+  background-color: rgba(241,185,128,.1)!important;
+}
+
+.img-fluid{
+  width: 46rem !important;
+  height: auto;
+}
+
+.fs-22{
+  font-size: 22px !important;
+}
+
+@media screen and (max-width: 2150px) {
+  .img-fluid {
+    width: 52rem !important;
+    height: auto;
+  }
+}
